@@ -1,4 +1,4 @@
-## Adversarial Video Moment Retrieval by Jointly Modeling Ranking and Localization
+## Adversarial Video Moment Retrieval by Jointly Modeling Ranking and Localization (AVMR)
 This is our implementation for the paper:
 
 Da Cao, Yawen Zeng, Xiaochi Wei, Liqiang Nie, Richang Hong, Zheng Qin. 2020. Adversarial Video Moment Retrieval by Jointly Modeling Ranking and Localization. In The ACM International Conference on Multimedia (ACM MM '20). ACM, Seattle, United States.
@@ -12,14 +12,16 @@ We use the framework pytorch.
 ## AVMR
 The released code consists of the following files.
 ```
---Disciminator
---MADDPG
+--workplaceTest
+--workplaceTrain
 --feature_all
---Main
---memory
---model
---randomProcess
---utils
+--main.py
+--MADDPG.py
+--model.py
+--memory.py
+--utils.py
+--randomProcess.py
+--readme
 ```
 
 ## Example to run the codes
@@ -40,7 +42,7 @@ All features are saved in ./feature_all_train, ./feature_all_test.
 * The original videos and their corresponding caption annotations/querys: https://github.com/jiyanggao/TALL and http://www.coli.uni-saarland.de/projects/smile/tacos
 
 ## Workspace
-workspace that processes images in advance as a runtime workspace.
+/workplaceTest and /workplaceTrain that processes videos in advance as a runtime workspace.
 
 #
 
