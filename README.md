@@ -33,6 +33,8 @@ python main.py
 ## Example demo
 AVMR_demo_YVKIV.mp4
 
+The visualization of five generated video moments on five iterations is revealed above. The green line and green box indicate the ground truth, the black line and black box represent the generated video moment candidates.
+
 ## Dataset
 We provide two processed datasets: Charades-STA && TACoS
 The strategy of multi-scale sliding windows is utilized to segment each video with the size of [64, 128, 256, 512] frames with 80% overlap and we randomly selected 80% and 20% of them for training and testing, respectively.
